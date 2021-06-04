@@ -1,0 +1,16 @@
+plugins {
+    id 'org.springframework.boot' version '2.1.6.RELEASE'
+    id 'java'
+}
+
+group 'com.dwy'
+version '1.0-SNAPSHOT'
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    compile 'org.springframework.boot:spring-boot-starter-data-elasticsearch:2.1.6.RELEASE'
+    testCompile 'org.springframework.boot:spring-boot-starter-test:2.1.6.RELEASE'
+}

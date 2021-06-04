@@ -1,0 +1,8 @@
+spring:
+  data:
+    elasticsearch:
+      cluster-name: my-application
+      cluster-nodes: 192.168.1.99:9300
+      client-transport-sniff: false
+      repositories:
+        enabled: true
